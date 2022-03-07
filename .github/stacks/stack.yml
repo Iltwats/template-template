@@ -12,9 +12,9 @@ configs:
     parameters:
       description: 'A Migration Test Repository'
       topics:
-      - nodejs
-      - react-app
-      - vercel
+        - nodejs
+        - react-app
+        - vercel
 
 init:
-  uses: "stack-init.yaml"
+  uses: stack-init.yaml
