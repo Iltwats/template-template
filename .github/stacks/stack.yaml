@@ -1,0 +1,11 @@
+name: React App
+description: This repository test stack version migration
+
+branding:
+  icon: 'package'
+  color: 'yellow'
+
+
+
+init:
+  uses: stack-init.yaml
