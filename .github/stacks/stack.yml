@@ -9,7 +9,7 @@ branding:
 configs:
   repo-metadata:
     parameters:
-      description: "A react-app template"
+      description: A react-app template
       topics:
         - react-app
         - nodejs
