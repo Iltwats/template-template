@@ -5,7 +5,15 @@ branding:
   icon: 'package'
   color: 'yellow'
 
-
+configs:
+  repo-metadata:
+    parameters:
+      description: "A react-app template"
+      topics:
+        - react-app
+        - nodejs
+        - vercel
+        
 
 init:
   uses: stack-init.yaml
