@@ -1,0 +1,25 @@
+name: "React-app setup in _"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  stack-initialization:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Creating a react-app and deploying it to  _"
+      - name: checkout
+          uses: actions/checkout@v2
+          with:
+            persist-credentials: false
+
+      - name: use node.js v14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+          check-latest: true
+          registry-url: https://registry.npmjs.org/
+
+      - name: create react app
+        run: |
+          npx create-react-app react-app

@@ -1,0 +1,17 @@
+name: Test App
+description: This repository test stack version migration
+branding:
+  icon: package
+  color: yellow
+
+configs:
+  repo-metadata:
+    parameters:
+      description: 'A Migration Test Repository'
+      topics:
+          - nodejs
+          - react-app
+          - vercel
+
+init:
+  uses: "stack-init.yaml"
