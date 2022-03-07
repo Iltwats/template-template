@@ -1,9 +1,9 @@
-name: React App
-description: This repository test stack version migration
+name: version-sync
+description: This repository is for trying version migration
 
 branding:
-  icon: 'package'
-  color: 'yellow'
+  icon: airplay
+  color: yellow
 
 configs:
   repo-metadata:
@@ -13,7 +13,5 @@ configs:
         - react-app
         - nodejs
         - vercel
-        
-
 init:
   uses: stack-init.yaml
