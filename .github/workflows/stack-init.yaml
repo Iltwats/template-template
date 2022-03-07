@@ -23,6 +23,8 @@ jobs:
       - name: create react app
         run: |
           npx create-react-app react-app
+          cp -r react-app/*
+          rm -rf react-app
         
       - name: Configure git
         run: |
